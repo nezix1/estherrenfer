@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240531174018">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css?_v=20240531174018" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20240531174018" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<a class="logo" href="/">Esther Renfer</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="about.html" class="menu__link" data-i18n="header.aboutme"></a></li>
+							<li class="menu__item"><a href="#benefits" class="menu__link" data-i18n="header.benefits"></a></li>
+							<li class="menu__item"><a href="https://wa.me/41798504968" target="_blank" class="menu__link" data-i18n="header.contact"></a></li>
+						</ul>
+						<div class="menu__social social">
+							<a href="https://wa.me/41798504968" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+							<a href="https://www.facebook.com/Estherrenfermiranda" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+							<a href="https://www.instagram.com/estherrenfer737/" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+						</div>
+						<div class="custom-select-wrapper">
+							<select id="languageSwitcher"></select>
+						</div>
+						<div class="menu__links">
+							<a href="mailto:estherrenfer@gmail.com">estherrenfer@gmail.com</a>
+							<a href="tel:41798504968">+41 79 850 49 68</a>
+						</div>
+					</nav>
+					<div class="menu__overlay"></div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section id="intro" class="intro">
+				<div class="intro__container">
+					<picture><source srcset="img/esther_transparent_bg2.webp" type="image/webp"><img src="img/esther_transparent_bg2.png" alt="ESTHER RENFER photo" class="intro__bg-photo" data-aos="zoom-in-up" data-aos-duration="900"></picture>
+					<h1>
+						<span class="_accent-color" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine">ESTHER RENFER</span>
+						<p data-aos-delay="200" data-aos-duration="700" data-aos="fade-right" data-aos-easing="ease-in-sine" data-i18n="intro.descr"></p>
+						<a href="https://wa.me/41798504968" target="_blank" class="_button" data-i18n="contact.contact"></a>
+					</h1>
+
+				</div>
+			</section>
+			<section id="benefits" class="benefits">
+				<div class="benefits__container">
+					<h2 data-aos="fade-right" class="_decor-title" data-i18n="benefits.maintitle"></h2>
+					<div class="benefits__items">
+						<div data-aos="fade-left" data-aos-delay="100" class="benefits__item">
+							<h4 data-i18n="benefits.title1"></h4>
+							<p data-i18n="benefits.descr1"></p>
+						</div>
+						<div data-aos="fade-up" data-aos-delay="200" class="benefits__item">
+							<h4 data-i18n="benefits.title2"></h4>
+							<p data-i18n="benefits.descr2"></p>
+						</div>
+						<div data-aos="fade-right" data-aos-delay="300" class="benefits__item">
+							<h4 data-i18n="benefits.title3"></h4>
+							<p data-i18n="benefits.descr3"></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<h2 data-aos="fade-right" class="_decor-title" data-i18n="info.title"></h2>
+					<div class="info__wrapper">
+						<div data-aos="flip-left" data-aos-delay="100" class="info__img">
+							<img src="img/mind.avif" alt="Mind">
+						</div>
+						<div data-aos="fade-left" data-aos-delay="200" class="info__text">
+							<p data-i18n="info.text"></p>
+							<p>
+							<p data-i18n="info.text2"></p>
+							<b class="_accent-color" data-i18n="info.bold"></b>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<img class="contact__photo" src="img/esther_orange.png" alt="Esther Renfer">
+					<div class="contact__content">
+						<h2 data-aos="fade-up">
+							<p data-i18n="contact.title"></p>
+							<div id="Ticker"></div>
+						</h2>
+						<a data-aos="fade-up" data-aos-delay="200" href="https://wa.me/41798504968" target="_blank" class="contact__button _button" data-i18n="contact.contact"></a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<a class="logo" href="/">Esther Renfer</a>
+					<div class="footer__decor"></div>
+					<nav class="menu__body footer__menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="about.html" class="menu__link" data-i18n="header.aboutme"></a></li>
+							<li class="menu__item"><a href="#benefits" class="menu__link" data-i18n="header.benefits"></a></li>
+							<li class="menu__item"><a href="https://wa.me/41798504968" target="_blank" class="menu__link" data-i18n="header.contact"></a></li>
+						</ul>
+						<div class="menu__inner">
+							<div class="menu__links">
+								<a href="mailto:estherrenfer@gmail.com"><i class="fa-solid fa-envelope"></i> estherrenfer@gmail.com</a>
+								<a href="tel:41798504968"><i class="fa-solid fa-phone"></i> +41 79 850 49 68</a>
+								<address><i class="fa-solid fa-location-dot"></i> Thun, Switzerland</address>
+							</div>
+							<div class="menu__social social">
+								<a href="https://wa.me/41798504968" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+								<a href="https://www.facebook.com/Estherrenfermiranda" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+								<a href="https://www.instagram.com/estherrenfer737/" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<p class="footer__copy">
+					© Esther Renfer 2024
+				</p>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20240531174018"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20240531174018"></script>
+	<script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js?_v=20240531174018"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js?_v=20240531174018"></script>
+	<script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js?_v=20240531174018"></script>
+	<script src="js/app.min.js?_v=20240531174018"></script>
+
+</body>
+
+</html>
